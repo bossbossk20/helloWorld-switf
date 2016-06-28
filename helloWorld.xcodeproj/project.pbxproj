@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					C17D24BA1D1ADA07002E22F0 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EY268YMMS7;
 					};
 					C17D24CE1D1ADA07002E22F0 = {
 						CreatedOnToolsVersion = 7.2;
@@ -401,9 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = helloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.helloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = test.helloWorld1777;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,9 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = helloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = test.helloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = test.helloWorld1777;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

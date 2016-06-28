@@ -59,23 +59,23 @@
             </objects>
             <point key="canvasLocation" x="313" y="342"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="UZr-ii-q1W">
             <objects>
-                <viewController id="d14-Gu-QNK" sceneMemberID="viewController">
+                <viewController id="d14-Gu-QNK" customClass="ViewController2" customModule="helloWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bqk-ot-Zbk"/>
                         <viewControllerLayoutGuide type="bottom" id="Tos-us-ral"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QKe-RI-p0F" customClass="ViewController2">
+                    <view key="view" contentMode="scaleToFill" id="QKe-RI-p0F">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgI-Dl-UDh">
-                                <rect key="frame" x="244" y="379" width="34" height="30"/>
+                                <rect key="frame" x="192" y="382" width="34" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="clickBackButton:" destination="QKe-RI-p0F" eventType="touchUpInside" id="Ov1-7j-M1F"/>
+                                    <action selector="clickBackButton:" destination="d14-Gu-QNK" eventType="touchUpInside" id="Mvp-dL-pq7"/>
                                 </connections>
                             </button>
                         </subviews>

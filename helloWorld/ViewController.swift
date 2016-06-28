@@ -30,7 +30,5 @@ class ViewController: UIViewController {
     @IBAction func didPressView() {
         myLabel!.text = myTextField!.text
     }
-
-
 }
 
