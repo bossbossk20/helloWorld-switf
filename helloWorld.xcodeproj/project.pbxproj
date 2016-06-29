@@ -196,7 +196,6 @@
 				TargetAttributes = {
 					C17D24BA1D1ADA07002E22F0 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = EY268YMMS7;
 					};
 					C17D24CE1D1ADA07002E22F0 = {
 						CreatedOnToolsVersion = 7.2;
